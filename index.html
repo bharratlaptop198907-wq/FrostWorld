@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frost World | Fresh Ice Cream, Kulfi and Sundaes in Sonipat</title>
+<meta name="description" content="Frost World makes small-batch ice cream, kulfi and sundaes in Sector 15, Sonipat, Haryana.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+:root{--ink:#0b1d3a;--ice:#eaf7fd;--glacier:#bfe6f5;--berry:#ff5c8a;--mint:#6fe0c0;--lemon:#ffd84d;
+--bs-body-font-family:'DM Sans',system-ui,sans-serif;--bs-body-color:#16294a;--bs-body-bg:#fff}
+html{scroll-behavior:smooth}section{scroll-margin-top:70px}
+body{font-size:1.1rem;line-height:1.65}
+h1,h2,h3,.navbar-brand{font-family:'Bagel Fat One','Arial Rounded MT Bold',sans-serif;font-weight:400;color:var(--ink);letter-spacing:.01em;line-height:1.05}
+.navbar{background:rgba(11,29,58,.96);backdrop-filter:blur(6px)}
+.navbar-brand{color:#fff!important;font-size:1.6rem;display:flex;align-items:center;gap:.55rem}
+.nav-link{color:#cfe4f1!important;font-weight:500}.nav-link:hover,.nav-link.active{color:#fff!important;box-shadow:inset 0 -3px 0 var(--berry)}
+.navbar-toggler{border-color:#cfe4f1}.navbar-toggler-icon{filter:invert(1)}
+a:focus-visible,.btn:focus-visible,button:focus-visible,.form-control:focus-visible{outline:3px solid var(--lemon);outline-offset:2px}
+.btn-berry{background:var(--berry);color:#fff;font-weight:700;border:0;padding:.85rem 1.7rem;border-radius:3rem}.btn-berry:hover{background:#ff4376;color:#fff}
+.btn-ghost{border:2px solid #fff;color:#fff;font-weight:700;padding:.8rem 1.6rem;border-radius:3rem}.btn-ghost:hover{background:#fff;color:var(--ink)}
+.hero{background:radial-gradient(circle at 80% 30%,#17407a 0,var(--ink) 60%);color:#fff;padding:7.5rem 0 8rem;position:relative;overflow:hidden}
+.hero h1{color:#fff;font-size:clamp(3.6rem,10vw,8rem);margin:0}.hero h1 span{display:block;color:var(--berry)}
+.hero .lead{color:#cfe4f1;max-width:46ch;font-size:1.3rem}
+.hero .photo{max-width:380px;margin:0 auto;border-radius:50% 50% 1.5rem 1.5rem/36% 36% 1.5rem 1.5rem;overflow:hidden;box-shadow:0 0 0 10px rgba(255,255,255,.1),0 30px 40px rgba(0,0,0,.35)}
+.hero .photo img{width:100%;height:480px;object-fit:cover;display:block}
+.flake{position:absolute;color:#fff;opacity:.18;font-size:2rem;user-select:none}
+.drips{position:absolute;left:0;bottom:-1px;width:100%;height:90px;fill:#fff}
+.chips span{display:inline-block;border:2px solid rgba(255,255,255,.35);border-radius:3rem;padding:.2rem .9rem;margin:.2rem .3rem .2rem 0;font-size:.95rem}
+section.blk{padding:5rem 0}.ice{background:var(--ice)}
+h2{font-size:clamp(2.2rem,5vw,3.4rem);margin-bottom:.6rem}
+.filters .btn{border:2px solid var(--ink);color:var(--ink);border-radius:3rem;font-weight:600;margin:0 .3rem .5rem 0}
+.filters .btn.on,.filters .btn:hover{background:var(--ink);color:#fff}
+.flav{background:var(--ice);border-radius:2rem 2rem 1rem 1rem;overflow:hidden;height:100%;transition:transform .2s}.flav:hover{transform:translateY(-6px)}
+.flav .art img{width:100%;height:240px;object-fit:cover;display:block}
+.flav .info{padding:1rem 1.3rem 1.4rem;background:#fff;margin-top:-6px}
+.flav h3{font-size:1.35rem;margin:0}.flav p{font-size:1rem;margin:.4rem 0 .7rem}
+.price{background:var(--ink);color:#fff;border-radius:2rem;padding:.1rem .7rem;font-weight:700;font-size:.95rem}
+.pill{background:var(--ice);color:#17407a;border-radius:2rem;padding:.1rem .7rem;font-size:.85rem;font-weight:600}
+.stat{font-family:'Bagel Fat One',sans-serif;font-size:3rem;color:var(--berry);line-height:1}
+.step{background:#fff;border-radius:1.2rem;padding:1.5rem;height:100%;border-top:6px solid var(--mint)}
+.step .n{display:inline-grid;place-items:center;width:2.4rem;height:2.4rem;border-radius:50%;background:var(--ink);color:#fff;font-weight:700;margin-bottom:.8rem}
+.step h3{font-size:1.4rem}.step p{margin:0;font-size:1rem}
+.quote{background:var(--ink);color:#e6f3fb;border-radius:1.5rem;padding:1.8rem;height:100%;margin:0}
+.quote blockquote{margin:0 0 1rem;font-size:1.15rem}.quote figcaption{color:var(--lemon);font-weight:700}
+.mapouter{border:6px solid var(--ink);border-radius:1rem;overflow:hidden}
+.hours{list-style:none;padding:0}.hours li{display:flex;justify-content:space-between;border-bottom:1px dashed #9ec5d8;padding:.4rem 0;max-width:420px}
+.form-control,.form-select{border:2px solid var(--glacier);border-radius:.8rem;padding:.7rem 1rem}
+footer{background:var(--ink);color:#b9d3e4;padding:3.5rem 0 2rem;font-size:1rem}footer a{color:#fff;text-decoration:none}footer a:hover{color:var(--berry)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head>
+<body data-bs-spy="scroll" data-bs-target="#nav" data-bs-offset="90">
+<nav class="navbar navbar-expand-lg fixed-top"><div class="container">
+<a class="navbar-brand" href="#home"><svg viewBox="0 0 64 64" width="38" height="38" aria-hidden="true"><circle cx="32" cy="32" r="31" fill="#ff5c8a"/><g stroke="#fff" stroke-width="4" stroke-linecap="round"><path d="M32 12v40M14.7 22l34.6 20M14.7 42l34.6-20"/></g><circle cx="32" cy="32" r="7" fill="#0b1d3a"/></svg> Frost World</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="nav"><ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#home">Home</a></li><li class="nav-item"><a class="nav-link" href="#flavours">Flavours</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">Our story</a></li><li class="nav-item"><a class="nav-link" href="#process">How we make it</a></li>
+<li class="nav-item"><a class="nav-link" href="#visit">Visit us</a></li><li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li></ul></div></div></nav>
+<main>
+<section id="home" class="hero"><span class="flake" style="top:18%;left:6%">&#10052;</span><span class="flake" style="top:60%;left:44%">&#10052;</span><span class="flake" style="top:12%;left:52%;font-size:3rem">&#10052;</span>
+<div class="container"><div class="row align-items-center g-5"><div class="col-lg-7">
+<h1>Frost <span>World</span></h1><p class="lead mt-4">Small-batch ice cream, kulfi and sundaes, churned every morning in Sonipat from real milk and real fruit.</p>
+<div class="chips"><span>Fresh daily</span><span>Real fruit</span><span>No artificial colours</span></div>
+<div class="d-flex flex-wrap gap-3 mt-4"><a class="btn btn-berry" href="#flavours">See the flavours</a><a class="btn btn-ghost" href="#visit">Find our parlour</a></div></div>
+<div class="col-lg-5 text-center"><div class="photo"><img src="https://images.unsplash.com/photo-1563252781-2f76e089e889?fm=jpg&amp;auto=format&amp;fit=crop&amp;w=900&amp;q=75" alt="Two ice cream cones" width="900" height="1100"></div></div></div></div>
+<svg class="drips" viewBox="0 0 1200 90" preserveAspectRatio="none" aria-hidden="true"><rect width="1200" height="30"/><rect x="37" y="18" width="26" height="38" rx="13"/><rect x="137" y="18" width="26" height="64" rx="13"/><rect x="237" y="18" width="26" height="46" rx="13"/><rect x="337" y="18" width="26" height="70" rx="13"/><rect x="437" y="18" width="26" height="34" rx="13"/><rect x="537" y="18" width="26" height="58" rx="13"/><rect x="637" y="18" width="26" height="42" rx="13"/><rect x="737" y="18" width="26" height="66" rx="13"/><rect x="837" y="18" width="26" height="40" rx="13"/><rect x="937" y="18" width="26" height="60" rx="13"/><rect x="1037" y="18" width="26" height="36" rx="13"/><rect x="1137" y="18" width="26" height="52" rx="13"/></svg></section>
+
+<section id="flavours" class="blk"><div class="container"><h2>Pick your scoop</h2><p class="mb-4">Six favourites from our parlour. Filter by style and ask at the counter for today's specials.</p>
+<div class="filters mb-3" role="group" aria-label="Filter flavours"><button class="btn on" data-f="all">All</button><button class="btn" data-f="Cones">Cones</button><button class="btn" data-f="Cups">Cups and bowls</button><button class="btn" data-f="Sundaes">Sundaes</button></div>
+<div class="row g-4" id="grid"><div class="col-sm-6 col-lg-4 fl" data-cat="Cups"><article class="flav"><div class="art"><img src="https://images.unsplash.com/photo-1724805053611-54c999f9c70c?fm=jpg&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=75" alt="A cup of ice cream with strawberries on the side" width="800" height="600" loading="lazy"></div><div class="info"><div class="d-flex justify-content-between align-items-start gap-2"><h3>Strawberry Cream Cup</h3><span class="price">₹80</span></div><p>Creamy strawberry ice cream with fresh berries on the side.</p><span class="pill">Cups</span></div></article></div><div class="col-sm-6 col-lg-4 fl" data-cat="Cones"><article class="flav"><div class="art"><img src="https://images.unsplash.com/photo-1724805053809-3c09736b2ade?fm=jpg&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=75" alt="A hand holding an ice cream cone with sprinkles" width="800" height="600" loading="lazy"></div><div class="info"><div class="d-flex justify-content-between align-items-start gap-2"><h3>Rainbow Sprinkle Cone</h3><span class="price">₹60</span></div><p>Soft ice cream in a crisp waffle cone, dusted with sprinkles.</p><span class="pill">Cones</span></div></article></div><div class="col-sm-6 col-lg-4 fl" data-cat="Cups"><article class="flav"><div class="art"><img src="https://images.unsplash.com/photo-1724805053558-aea1220afbfa?fm=jpg&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=75" alt="Two scoops of ice cream in a white bowl" width="800" height="600" loading="lazy"></div><div class="info"><div class="d-flex justify-content-between align-items-start gap-2"><h3>Double Scoop Bowl</h3><span class="price">₹110</span></div><p>Two generous scoops of your pick, served in a chilled bowl.</p><span class="pill">Cups</span></div></article></div><div class="col-sm-6 col-lg-4 fl" data-cat="Sundaes"><article class="flav"><div class="art"><img src="https://images.unsplash.com/photo-1724805053205-d429850a5ed5?fm=jpg&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=75" alt="Two scoops of ice cream in a glass on a marble table" width="800" height="600" loading="lazy"></div><div class="info"><div class="d-flex justify-content-between align-items-start gap-2"><h3>Marble Duo Glass</h3><span class="price">₹120</span></div><p>Two scoops in a tall glass for a slow, sit-down dessert.</p><span class="pill">Sundaes</span></div></article></div><div class="col-sm-6 col-lg-4 fl" data-cat="Sundaes"><article class="flav"><div class="art"><img src="https://images.unsplash.com/photo-1724805053604-4f189fb90dff?fm=jpg&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=75" alt="Three scoops of ice cream with sprinkles in a glass" width="800" height="600" loading="lazy"></div><div class="info"><div class="d-flex justify-content-between align-items-start gap-2"><h3>Triple Scoop Party Glass</h3><span class="price">₹150</span></div><p>Three scoops with sprinkles. Built for sharing, or not.</p><span class="pill">Sundaes</span></div></article></div><div class="col-sm-6 col-lg-4 fl" data-cat="Sundaes"><article class="flav"><div class="art"><img src="https://images.unsplash.com/photo-1724805053797-d12f9c785b17?fm=jpg&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=75" alt="An ice cream sundae with chocolate and sprinkles" width="800" height="600" loading="lazy"></div><div class="info"><div class="d-flex justify-content-between align-items-start gap-2"><h3>Chocolate Sprinkle Sundae</h3><span class="price">₹140</span></div><p>Ice cream, rich chocolate and sprinkles piled high.</p><span class="pill">Sundaes</span></div></article></div></div></div></section>
+
+<section id="about" class="blk ice"><div class="container"><div class="row align-items-center g-5">
+<div class="col-lg-6"><h2>Cold treats, warm family</h2>
+<p>Frost World began as a single freezer and a hand-cranked churn in Sector 15. We still make ice cream the slow way, in small batches, so every scoop tastes like what is written on the label.</p>
+<p>We keep our recipes short: milk, cream, fruit, nuts and sugar. If it does not belong in your kitchen, it does not belong in our tubs.</p></div>
+<div class="col-lg-6"><img class="img-fluid rounded-4 mb-4" src="https://images.unsplash.com/photo-1648971413826-8377e3c65039?fm=jpg&amp;auto=format&amp;fit=crop&amp;w=900&amp;q=75" alt="A display case filled with different types of ice cream" width="900" height="600" loading="lazy"><div class="row g-4 text-center"><div class="col-6"><div class="stat">40+</div><p>flavours through the year</p></div><div class="col-6"><div class="stat">5 am</div><p>when our churn starts</p></div>
+<div class="col-6"><div class="stat">100%</div><p>real fruit in fruit flavours</p></div><div class="col-6"><div class="stat">0</div><p>artificial colours</p></div></div></div></div></div></section>
+
+<section id="process" class="blk"><div class="container"><h2>How we make it</h2><p class="mb-4">From dairy to cone in four steps.</p><div class="row g-4"><div class="col-sm-6 col-lg-3"><div class="step"><span class="n">1</span><h3>Source</h3><p>Milk from nearby dairies and fruit from Haryana and Maharashtra orchards arrive each morning.</p></div></div><div class="col-sm-6 col-lg-3"><div class="step"><span class="n">2</span><h3>Churn</h3><p>Small batches are churned slowly so the ice cream stays dense, smooth and low on air.</p></div></div><div class="col-sm-6 col-lg-3"><div class="step"><span class="n">3</span><h3>Freeze hard</h3><p>Every tub is blast-frozen to lock in flavour, then rests overnight.</p></div></div><div class="col-sm-6 col-lg-3"><div class="step"><span class="n">4</span><h3>Serve</h3><p>Scooped fresh at the parlour or packed in insulated boxes for home delivery.</p></div></div></div>
+<h2 class="mt-5 pt-4 mb-4">What our regulars say</h2><div class="row g-4"><div class="col-md-4"><figure class="quote"><blockquote>The mango scoop tastes like the fruit, not like sugar. We go every weekend.</blockquote><figcaption>Priya S.</figcaption></figure></div><div class="col-md-4"><figure class="quote"><blockquote>Ordered 40 kulfis for a wedding function and every single one arrived perfect.</blockquote><figcaption>Rahul D.</figcaption></figure></div><div class="col-md-4"><figure class="quote"><blockquote>Best chocolate ice cream in Sonipat, and the staff remembers my kids' favourites.</blockquote><figcaption>Neha K.</figcaption></figure></div></div></div></section>
+
+<section id="visit" class="blk ice"><div class="container"><div class="row g-5"><div class="col-lg-5"><h2>Visit our parlour</h2>
+<p><strong>Frost World</strong><br>Sector 15, Sonipat, Haryana, India</p>
+<ul class="hours"><li><span>Monday to Friday</span><span>11:00 to 22:00</span></li><li><span>Saturday and Sunday</span><span>10:00 to 23:00</span></li></ul>
+<p>Dine in, take away or call ahead for party boxes.</p><a class="btn btn-berry" href="#contact">Plan a party order</a></div>
+<div class="col-lg-7"><div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Frost World parlour map" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=sector%2015%20sonipat%20haryana&amp;t=p&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">google map embed html</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div></div></div></div></section>
+
+<section id="contact" class="blk"><div class="container"><div class="row g-5"><div class="col-lg-5"><h2>Say hello</h2>
+<p>Birthday boxes, wedding kulfi, office treats or franchise questions. Write to us and we will reply within one working day.</p>
+<p class="mb-1"><strong>Email</strong> hello@frostworld.example</p><p><strong>Phone</strong> +91 00000 00000</p></div>
+<div class="col-lg-7"><form class="needs-validation" novalidate action="mailto:hello@frostworld.example" method="post" enctype="text/plain"><div class="row g-3">
+<div class="col-md-6"><label class="form-label" for="n">Your name</label><input id="n" name="name" class="form-control" required><div class="invalid-feedback">Enter your name.</div></div>
+<div class="col-md-6"><label class="form-label" for="p">Phone</label><input id="p" name="phone" type="tel" class="form-control" required><div class="invalid-feedback">Enter a phone number.</div></div>
+<div class="col-12"><label class="form-label" for="t">I want to</label><select id="t" name="topic" class="form-select"><option>Order for a party</option><option>Ask about a flavour</option><option>Ask about a franchise</option><option>Give feedback</option></select></div>
+<div class="col-12"><label class="form-label" for="m">Message</label><textarea id="m" name="message" rows="4" class="form-control" required></textarea><div class="invalid-feedback">Write a short message.</div></div>
+<div class="col-12"><button class="btn btn-berry" type="submit">Send message</button></div></div></form></div></div></div></section>
+</main>
+<footer><div class="container"><div class="d-flex flex-wrap justify-content-between gap-3"><div><strong class="text-white">Frost World</strong><br>Sector 15, Sonipat, Haryana</div>
+<div><a href="#flavours">Flavours</a> &nbsp; <a href="#about">Our story</a> &nbsp; <a href="#visit">Visit us</a> &nbsp; <a href="#contact">Contact</a></div></div>
+<hr class="border-secondary"><p class="mb-0">&copy; <span id="yr">2026</span> Frost World. All rights reserved.</p><p class="small mt-2 mb-0">Photos by Nas Mato, hai_gea and carlos lugo on <a href="https://unsplash.com">Unsplash</a>.</p></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.querySelectorAll('.filters .btn').forEach(b=>b.addEventListener('click',()=>{
+ document.querySelectorAll('.filters .btn').forEach(x=>x.classList.remove('on'));b.classList.add('on');
+ document.querySelectorAll('.fl').forEach(c=>c.hidden=b.dataset.f!=='all'&&c.dataset.cat!==b.dataset.f);}));
+document.querySelectorAll('.needs-validation').forEach(f=>f.addEventListener('submit',e=>{if(!f.checkValidity()){e.preventDefault();e.stopPropagation();}f.classList.add('was-validated');}));
+document.getElementById('yr').textContent=new Date().getFullYear();
+</script></body></html>
